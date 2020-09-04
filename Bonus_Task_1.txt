@@ -1,0 +1,7 @@
+Select * FROM dbo.tenants where tenantID > 1 order by TenantName DESC
+
+
+Select BuildingID, BuildingName FROM dbo.building
+
+
+Select * FROM dbo.Requests WHERE Status = 'OPEN'
